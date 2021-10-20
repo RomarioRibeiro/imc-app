@@ -2,3 +2,15 @@
   color: #C1CFC0;
   font-size: 0.875rem;
 }
+
+.p-card{
+  background: #ffffff;
+  margin-top: 20px;
+  color: #212529;
+  box-shadow: -1px 2px 15px -2px rgb(0 0 0 / 75%);
+  border-radius: 20px;
+}
+.p-inputtext, .p-button{
+
+  border-radius: 20px;
+}

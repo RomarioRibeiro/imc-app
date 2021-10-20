@@ -3,6 +3,8 @@ import {NgModule } from '@angular/core';
 import {InputTextModule} from 'primeng/inputtext';
 import {ButtonModule} from 'primeng/button';
 import {InputMaskModule} from 'primeng/inputmask';
+import {CardModule} from 'primeng/card';
+import {KeyFilterModule} from 'primeng/keyfilter';
 
 
 
@@ -15,7 +17,9 @@ import {InputMaskModule} from 'primeng/inputmask';
 
    InputTextModule,
   ButtonModule,
-    InputMaskModule
+    InputMaskModule,
+    CardModule,
+    KeyFilterModule
   ]
 })
 export class PrimengModule { }
